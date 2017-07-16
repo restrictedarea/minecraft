@@ -1,0 +1,19 @@
+{
+	"name": "@restrictedarea/minecraft",
+	"description": "",
+	"version": "0.0.0-0",
+	"scripts": {
+		"prepare": "npm run lint && npm run build",
+		"lint": "./node_modules/.bin/tslint -e \"*.d.ts\" \"*.ts\"",
+		"build": "./node_modules/.bin/tsc"
+	},
+	"devDependencies": {
+		"@types/node": "^8.0.13",
+		"@types/ws": "^3.0.2",
+		"tslint": "^5.5.0",
+		"typescript": "^2.4.1"
+	},
+	"dependencies": {
+		"ws": "^3.0.0"
+	}
+}

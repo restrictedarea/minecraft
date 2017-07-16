@@ -1,0 +1,18 @@
+{
+	"extends": "tslint:recommended",
+
+	"rules": {
+		"indent": [true, "tabs"],
+		"quotemark": [true, "double"],
+		"ordered-imports": [true, {"import-sources-order": "any", "named-imports-order": "any"}],
+		"only-arrow-functions": [true, "allow-declarations", "allow-named-functions"],
+		"max-line-length": false,
+		"object-literal-sort-keys": false,
+		"interface-name": [true, "never-prefix"],
+		"prefer-const": true,
+		"no-shadowed-variable": false,
+		"no-empty-interface": false,
+		"no-string-literal": false,
+		"object-literal-key-quotes": [true, "consistent"]
+	}
+}
